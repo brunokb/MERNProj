@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/Cellar/node/16.10.0_1/bin/node /usr/local/Cellar/yarn/1.22.15/libexec/bin/yarn.js add bodyParse
+
+PATH: 
+  /Users/brunosilva/Library/Android/sdk/tools:/Users/brunosilva/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/brunosilva/Downloads/google-cloud-sdk/bin:/Users/brunosilva/Library/Android/sdk/emulator:/Users/brunosilva/Library/Android/sdk/tools:/Users/brunosilva/Library/Android/sdk/tools/bin:/Users/brunosilva/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bodyParse: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.15/libexec/lib/cli.js:67031:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.15/libexec/lib/cli.js:140885:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.15/libexec/lib/cli.js:141857:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.15/libexec/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parse": "^0.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
